@@ -1,6 +1,8 @@
 source "http://rubygems.org"
 gemspec
 
+gem 'pg'
+gem 'unicorn'
 
 # Gems for authenticators
 group :ldap do
